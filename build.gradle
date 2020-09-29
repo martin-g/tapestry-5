@@ -231,7 +231,7 @@ subprojects {
             into "META-INF"
         }
         manifest {
-        	attributes("Automatic-Module-Name": "org.apache.tapestry5." + projectDir.getName().replaceAll("5", ""))
+        	attributes("Automatic-Module-Name": "org.apache.tapestry." + projectDir.getName().replaceAll("5", ""))
         }
     }
 
