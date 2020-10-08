@@ -17,12 +17,12 @@ import java.util.Map;
 import java.util.Set;
 
 import org.apache.tapestry5.ComponentResources;
-import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.beanmodel.services.PlasticProxyFactoryImpl;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.services.PlasticProxyFactory;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.commons.util.ExceptionUtils;
+import org.apache.tapestry5.http.TapestryHttpSymbolConstants;
 import org.apache.tapestry5.internal.InternalComponentResources;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.internal.model.MutableComponentModelImpl;
@@ -138,7 +138,7 @@ public final class ComponentInstantiatorSourceImpl implements ComponentInstantia
 
                                            Map<String, ControlledPackageType> configuration,
 
-                                           @Symbol(SymbolConstants.PRODUCTION_MODE)
+                                           @Symbol(TapestryHttpSymbolConstants.PRODUCTION_MODE)
                                            boolean productionMode,
 
                                            ComponentClassResolver resolver,

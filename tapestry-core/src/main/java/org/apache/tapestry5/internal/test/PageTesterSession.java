@@ -15,8 +15,8 @@
 package org.apache.tapestry5.internal.test;
 
 import org.apache.tapestry5.commons.util.CollectionFactory;
+import org.apache.tapestry5.http.services.Session;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;
-import org.apache.tapestry5.services.Session;
 
 import static org.apache.tapestry5.commons.util.CollectionFactory.newList;
 

@@ -20,9 +20,10 @@ import org.apache.tapestry5.annotations.Parameter;
 import org.apache.tapestry5.commons.Messages;
 import org.apache.tapestry5.dom.Element;
 import org.apache.tapestry5.grid.GridDataSource;
+import org.apache.tapestry5.http.Link;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.services.Request;
 
 /**
  * Generates a series of links used to jump to a particular page index within the overall data set.

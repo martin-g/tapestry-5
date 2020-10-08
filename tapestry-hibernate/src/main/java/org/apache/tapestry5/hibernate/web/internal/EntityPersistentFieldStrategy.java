@@ -14,8 +14,8 @@
 
 package org.apache.tapestry5.hibernate.web.internal;
 
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.services.AbstractSessionPersistentFieldStrategy;
-import org.apache.tapestry5.services.Request;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 

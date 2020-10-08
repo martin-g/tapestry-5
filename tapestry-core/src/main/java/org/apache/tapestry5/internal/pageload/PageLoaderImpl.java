@@ -26,6 +26,7 @@ import org.apache.tapestry5.commons.util.AvailableValues;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.commons.util.Stack;
 import org.apache.tapestry5.commons.util.UnknownValueException;
+import org.apache.tapestry5.http.services.RequestGlobals;
 import org.apache.tapestry5.internal.InternalComponentResources;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.internal.bindings.LiteralBinding;
@@ -51,7 +52,6 @@ import org.apache.tapestry5.services.ComponentClassResolver;
 import org.apache.tapestry5.services.ComponentMessages;
 import org.apache.tapestry5.services.ComponentTemplates;
 import org.apache.tapestry5.services.MetaDataLocator;
-import org.apache.tapestry5.services.RequestGlobals;
 import org.apache.tapestry5.services.pageload.ComponentResourceSelector;
 import org.slf4j.Logger;
 

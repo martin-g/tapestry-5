@@ -95,7 +95,7 @@ public class ParametersServletRequestWrapper extends HttpServletRequestWrapper
      * Ignores any attempt to set the character encoding, as it already has been set before the request content was
      * parsed.
      *
-     * @see org.apache.tapestry5.SymbolConstants#CHARSET
+     * @see org.apache.tapestry5.http.TapestryHttpSymbolConstants#CHARSET
      */
     @Override
     public void setCharacterEncoding(String enc) throws UnsupportedEncodingException

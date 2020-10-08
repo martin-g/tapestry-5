@@ -16,8 +16,9 @@ import com.github.sommeri.less4j.Less4jException;
 import com.github.sommeri.less4j.LessCompiler;
 import com.github.sommeri.less4j.LessSource;
 import com.github.sommeri.less4j.core.DefaultLessCompiler;
-import org.apache.tapestry5.ContentType;
+
 import org.apache.tapestry5.commons.Resource;
+import org.apache.tapestry5.http.ContentType;
 import org.apache.tapestry5.internal.services.assets.BytestreamCache;
 import org.apache.tapestry5.services.assets.ResourceDependencies;
 import org.apache.tapestry5.services.assets.ResourceTransformer;

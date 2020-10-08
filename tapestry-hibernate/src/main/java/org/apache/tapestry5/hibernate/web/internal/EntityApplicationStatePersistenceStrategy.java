@@ -14,13 +14,13 @@
 
 package org.apache.tapestry5.hibernate.web.internal;
 
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.services.SessionApplicationStatePersistenceStrategy;
 import org.apache.tapestry5.services.ApplicationStateCreator;
-import org.apache.tapestry5.services.Request;
 import org.hibernate.Session;
 
 /**
- * Persists Hibernate entities as SSOs by storing their primary key in the {@link org.apache.tapestry5.services.Session}.
+ * Persists Hibernate entities as SSOs by storing their primary key in the {@link org.apache.tapestry5.http.services.Session}.
  *
  * @see org.apache.tapestry5.hibernate.web.internal.PersistedEntity
  */

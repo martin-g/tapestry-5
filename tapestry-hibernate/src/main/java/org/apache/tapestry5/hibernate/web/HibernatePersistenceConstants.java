@@ -26,7 +26,7 @@ public class HibernatePersistenceConstants
 {
     /**
      * If the field's value is a persistent Hibernate entity its type and primary key is stored in the
-     * {@link org.apache.tapestry5.services.Session}. Otherwise,
+     * {@link org.apache.tapestry5.http.services.Session}. Otherwise,
      * the value is stored as per {@link PersistenceConstants#SESSION}.
      */
     public static final String ENTITY = "entity";

@@ -15,6 +15,7 @@ dependencies {
     compile project(':tapestry-ioc')
     compile project(':tapestry-json')
     compile project(':beanmodel')
+    compile project(':tapestry-http')
 
     provided project(":tapestry-test")
     provided project(":tapestry-test-constants")

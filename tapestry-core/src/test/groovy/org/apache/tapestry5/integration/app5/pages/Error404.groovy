@@ -2,9 +2,9 @@ package org.apache.tapestry5.integration.app5.pages
 
 import javax.servlet.http.HttpServletResponse
 
+import org.apache.tapestry5.http.services.Request
+import org.apache.tapestry5.http.services.Response
 import org.apache.tapestry5.ioc.annotations.Inject
-import org.apache.tapestry5.services.Request
-import org.apache.tapestry5.services.Response
 
 class Error404 {
 

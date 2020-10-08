@@ -14,10 +14,10 @@
 
 package org.apache.tapestry5.internal.services;
 
-import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.commons.Messages;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.services.InvalidationEventHub;
+import org.apache.tapestry5.http.TapestryHttpSymbolConstants;
 import org.apache.tapestry5.ioc.annotations.PostInjection;
 import org.apache.tapestry5.ioc.annotations.Symbol;
 import org.apache.tapestry5.ioc.internal.util.URLChangeTracker;
@@ -69,7 +69,7 @@ public class ComponentMessagesSourceImpl implements ComponentMessagesSource, Upd
         }
     }
 
-    public ComponentMessagesSourceImpl(@Symbol(SymbolConstants.PRODUCTION_MODE)
+    public ComponentMessagesSourceImpl(@Symbol(TapestryHttpSymbolConstants.PRODUCTION_MODE)
                                        boolean productionMode, List<Resource> appCatalogResources, PropertiesFileParser parser,
                                        ComponentResourceLocator resourceLocator, ClasspathURLConverter classpathURLConverter)
     {

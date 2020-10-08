@@ -20,11 +20,11 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+import org.apache.tapestry5.http.services.Request;
+import org.apache.tapestry5.http.services.Session;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;
 import org.apache.tapestry5.services.PersistentFieldChange;
 import org.apache.tapestry5.services.PersistentFieldStrategy;
-import org.apache.tapestry5.services.Request;
-import org.apache.tapestry5.services.Session;
 
 /**
  * Base class for strategies that store their values as keys in the session. Implements a uniform format for the keys,

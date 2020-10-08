@@ -18,8 +18,8 @@ import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.corelib.base.AbstractField;
 import org.apache.tapestry5.dom.Element;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.services.Request;
 
 import java.util.Collections;
 import java.util.List;

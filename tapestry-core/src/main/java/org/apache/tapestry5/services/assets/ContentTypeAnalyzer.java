@@ -13,8 +13,8 @@
 package org.apache.tapestry5.services.assets;
 
 import org.apache.tapestry5.commons.Resource;
+import org.apache.tapestry5.http.services.Context;
 import org.apache.tapestry5.ioc.annotations.UsesMappedConfiguration;
-import org.apache.tapestry5.services.Context;
 
 /**
  * Used to determine the MIME content type for a resource. The service configuration is the first step,

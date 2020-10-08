@@ -22,6 +22,7 @@ import org.apache.tapestry5.commons.internal.util.LockSupport;
 import org.apache.tapestry5.commons.internal.util.TapestryException;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.func.Worker;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.InternalComponentResources;
 import org.apache.tapestry5.internal.bindings.InternalPropBinding;
 import org.apache.tapestry5.internal.bindings.PropBinding;

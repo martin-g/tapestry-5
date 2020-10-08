@@ -28,7 +28,7 @@ import org.apache.tapestry5.commons.ObjectProvider;
 import org.apache.tapestry5.commons.OrderedConfiguration;
 import org.apache.tapestry5.commons.services.PropertyAccess;
 import org.apache.tapestry5.commons.services.TypeCoercer;
-import org.apache.tapestry5.internal.InternalConstants;
+import org.apache.tapestry5.http.internal.TapestryHttpInternalConstants;
 import org.apache.tapestry5.internal.jpa.CommitAfterWorker;
 import org.apache.tapestry5.internal.jpa.EntityApplicationStatePersistenceStrategy;
 import org.apache.tapestry5.internal.jpa.EntityManagerManagerImpl;
@@ -113,7 +113,7 @@ public class JpaModule
     @Contribute(JpaEntityPackageManager.class)
     public static void provideEntityPackages(Configuration<String> configuration,
 
-                                             @Symbol(InternalConstants.TAPESTRY_APP_PACKAGE_PARAM)
+                                             @Symbol(TapestryHttpInternalConstants.TAPESTRY_APP_PACKAGE_PARAM)
                                              String appRootPackage)
     {
         configuration.add(appRootPackage + ".entities");

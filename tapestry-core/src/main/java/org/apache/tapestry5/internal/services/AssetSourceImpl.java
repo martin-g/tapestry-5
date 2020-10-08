@@ -18,6 +18,7 @@ import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.internal.util.LockSupport;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.commons.util.StrategyRegistry;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.AssetConstants;
 import org.apache.tapestry5.internal.TapestryInternalUtils;
 import org.apache.tapestry5.internal.services.assets.ResourceChangeTracker;
@@ -29,7 +30,6 @@ import org.apache.tapestry5.ioc.services.SymbolSource;
 import org.apache.tapestry5.ioc.services.ThreadLocale;
 import org.apache.tapestry5.services.AssetFactory;
 import org.apache.tapestry5.services.AssetSource;
-import org.apache.tapestry5.services.Request;
 import org.slf4j.Logger;
 
 import java.lang.ref.Reference;

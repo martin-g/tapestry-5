@@ -15,9 +15,9 @@
 package org.apache.tapestry5.root;
 
 import org.apache.tapestry5.EventContext;
-import org.apache.tapestry5.Link;
 import org.apache.tapestry5.PageCallback;
 import org.apache.tapestry5.commons.services.TypeCoercer;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.services.ArrayEventContext;
 import org.apache.tapestry5.internal.test.InternalBaseTestCase;
 import org.apache.tapestry5.services.PageRenderLinkSource;

@@ -20,11 +20,11 @@ import org.apache.tapestry5.Asset;
 import org.apache.tapestry5.ComponentResources;
 import org.apache.tapestry5.EventConstants;
 import org.apache.tapestry5.corelib.internal.FormSupportImpl;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.services.HeartbeatImpl;
 import org.apache.tapestry5.internal.test.InternalBaseTestCase;
 import org.apache.tapestry5.services.FormSupport;
 import org.apache.tapestry5.services.Heartbeat;
-import org.apache.tapestry5.services.Request;
 import org.apache.tapestry5.test.ioc.TestBase;
 import org.testng.annotations.Test;
 

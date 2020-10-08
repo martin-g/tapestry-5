@@ -15,9 +15,9 @@
 package org.apache.tapestry5.integration.cluster.services;
 
 import org.apache.tapestry5.commons.MappedConfiguration;
+import org.apache.tapestry5.http.services.SessionPersistedObjectAnalyzer;
 import org.apache.tapestry5.integration.cluster.data.AnalyzedSessionObject;
 import org.apache.tapestry5.ioc.annotations.Contribute;
-import org.apache.tapestry5.services.SessionPersistedObjectAnalyzer;
 
 public class AppModule
 {

@@ -203,7 +203,7 @@ public interface Page extends PageLifecycleCallbackHub
     /**
      * Discards all persistent field changes for the page containing the component. Changes are
      * eliminated from
-     * persistent storage (such as the {@link org.apache.tapestry5.services.Session}) which will
+     * persistent storage (such as the {@link org.apache.tapestry5.http.services.Session}) which will
      * take effect in the <em>next</em> request (the attached page instance is not affected).
      */
     void discardPersistentFieldChanges();

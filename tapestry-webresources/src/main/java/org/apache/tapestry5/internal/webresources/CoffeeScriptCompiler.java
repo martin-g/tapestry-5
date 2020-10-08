@@ -13,10 +13,10 @@
 package org.apache.tapestry5.internal.webresources;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.tapestry5.ContentType;
 import org.apache.tapestry5.annotations.Path;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.util.CollectionFactory;
+import org.apache.tapestry5.http.ContentType;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.ioc.OperationTracker;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;

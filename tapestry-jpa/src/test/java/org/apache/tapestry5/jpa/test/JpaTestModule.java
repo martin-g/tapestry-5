@@ -16,7 +16,7 @@ import javax.persistence.spi.PersistenceUnitTransactionType;
 import org.apache.tapestry5.commons.Configuration;
 import org.apache.tapestry5.commons.MappedConfiguration;
 import org.apache.tapestry5.commons.ObjectLocator;
-import org.apache.tapestry5.internal.InternalConstants;
+import org.apache.tapestry5.http.internal.TapestryHttpInternalConstants;
 import org.apache.tapestry5.internal.jpa.TapestryCDIBeanManagerForJPAEntityListeners;
 import org.apache.tapestry5.ioc.MethodAdviceReceiver;
 import org.apache.tapestry5.ioc.ServiceBinder;
@@ -46,7 +46,7 @@ public class JpaTestModule
     @ApplicationDefaults
     public static void defaultsSymbols(MappedConfiguration<String, Object> configuration)
     {
-        configuration.add(InternalConstants.TAPESTRY_APP_PACKAGE_PARAM, JpaTestModule.class
+        configuration.add(TapestryHttpInternalConstants.TAPESTRY_APP_PACKAGE_PARAM, JpaTestModule.class
                 .getPackage().getName());
         // configuration.add(InternalSymbols.APP_PACKAGE_PATH, "org/tynamo/model/jpa");
     }

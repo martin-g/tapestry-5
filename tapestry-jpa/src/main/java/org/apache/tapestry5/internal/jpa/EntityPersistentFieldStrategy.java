@@ -14,9 +14,9 @@
 
 package org.apache.tapestry5.internal.jpa;
 
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.services.AbstractSessionPersistentFieldStrategy;
 import org.apache.tapestry5.jpa.EntityManagerManager;
-import org.apache.tapestry5.services.Request;
 
 /**
  * Persists JPA entities by storing their id in the session.

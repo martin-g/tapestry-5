@@ -2,8 +2,9 @@ package org.apache.tapestry5.internal.services
 
 import javax.servlet.http.HttpServletRequest
 
+import org.apache.tapestry5.http.internal.services.ResponseCompressionAnalyzerImpl
+import org.apache.tapestry5.http.services.ResponseCompressionAnalyzer
 import org.apache.tapestry5.internal.InternalConstants;
-import org.apache.tapestry5.services.ResponseCompressionAnalyzer
 import org.apache.tapestry5.test.ioc.TestBase
 import org.testng.annotations.Test
 

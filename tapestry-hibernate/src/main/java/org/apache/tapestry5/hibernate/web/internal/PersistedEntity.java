@@ -14,7 +14,7 @@
 
 package org.apache.tapestry5.hibernate.web.internal;
 
-import org.apache.tapestry5.annotations.ImmutableSessionPersistedObject;
+import org.apache.tapestry5.http.annotations.ImmutableSessionPersistedObject;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;
 import org.hibernate.Session;
 

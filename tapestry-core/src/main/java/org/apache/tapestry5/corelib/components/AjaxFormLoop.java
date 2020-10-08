@@ -18,6 +18,7 @@ import org.apache.tapestry5.beanmodel.services.*;
 import org.apache.tapestry5.commons.services.TypeCoercer;
 import org.apache.tapestry5.corelib.internal.AjaxFormLoopContext;
 import org.apache.tapestry5.dom.Element;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.services.RequestConstants;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONObject;

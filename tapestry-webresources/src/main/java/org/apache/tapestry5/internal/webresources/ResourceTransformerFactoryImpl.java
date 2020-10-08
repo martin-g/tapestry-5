@@ -15,6 +15,7 @@ package org.apache.tapestry5.internal.webresources;
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.util.CollectionFactory;
+import org.apache.tapestry5.http.TapestryHttpSymbolConstants;
 import org.apache.tapestry5.internal.TapestryInternalUtils;
 import org.apache.tapestry5.internal.services.assets.BytestreamCache;
 import org.apache.tapestry5.ioc.IOOperation;
@@ -40,7 +41,7 @@ public class ResourceTransformerFactoryImpl implements ResourceTransformerFactor
     private final File cacheDir;
 
     public ResourceTransformerFactoryImpl(Logger logger, OperationTracker tracker,
-                                          @Symbol(SymbolConstants.PRODUCTION_MODE)
+                                          @Symbol(TapestryHttpSymbolConstants.PRODUCTION_MODE)
                                           boolean productionMode,
                                           @Symbol(WebResourcesSymbols.CACHE_DIR)
                                           String cacheDir)

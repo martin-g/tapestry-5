@@ -14,6 +14,7 @@
 
 package org.apache.tapestry5.internal;
 
+import org.apache.tapestry5.http.internal.ServletContextSymbolProvider;
 import org.apache.tapestry5.ioc.services.SymbolProvider;
 import org.apache.tapestry5.test.ioc.TestBase;
 import org.testng.annotations.Test;

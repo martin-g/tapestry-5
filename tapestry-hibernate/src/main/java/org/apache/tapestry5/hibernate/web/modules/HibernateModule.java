@@ -28,7 +28,7 @@ import org.apache.tapestry5.hibernate.web.internal.CommitAfterWorker;
 import org.apache.tapestry5.hibernate.web.internal.EntityApplicationStatePersistenceStrategy;
 import org.apache.tapestry5.hibernate.web.internal.EntityPersistentFieldStrategy;
 import org.apache.tapestry5.hibernate.web.internal.HibernateEntityValueEncoder;
-import org.apache.tapestry5.internal.InternalConstants;
+import org.apache.tapestry5.http.internal.TapestryHttpInternalConstants;
 import org.apache.tapestry5.ioc.LoggerSource;
 import org.apache.tapestry5.ioc.annotations.Contribute;
 import org.apache.tapestry5.ioc.annotations.Primary;
@@ -64,7 +64,7 @@ public class HibernateModule
      */
     public static void contributeHibernateEntityPackageManager(Configuration<String> configuration,
 
-                                                               @Symbol(InternalConstants.TAPESTRY_APP_PACKAGE_PARAM)
+                                                               @Symbol(TapestryHttpInternalConstants.TAPESTRY_APP_PACKAGE_PARAM)
                                                                String appRootPackage)
     {
         configuration.add(appRootPackage + ".entities");

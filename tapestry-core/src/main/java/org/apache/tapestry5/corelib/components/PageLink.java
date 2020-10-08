@@ -13,10 +13,10 @@
 package org.apache.tapestry5.corelib.components;
 
 import org.apache.tapestry5.BindingConstants;
-import org.apache.tapestry5.Link;
 import org.apache.tapestry5.MarkupWriter;
 import org.apache.tapestry5.annotations.Parameter;
 import org.apache.tapestry5.corelib.base.AbstractLink;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.services.PageRenderLinkSource;

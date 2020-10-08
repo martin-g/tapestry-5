@@ -16,7 +16,7 @@ package org.apache.tapestry5.internal.spring;
 
 import org.apache.tapestry5.commons.*;
 import org.apache.tapestry5.commons.util.CollectionFactory;
-import org.apache.tapestry5.internal.AbstractContributionDef;
+import org.apache.tapestry5.http.internal.AbstractContributionDef;
 import org.apache.tapestry5.ioc.Invokable;
 import org.apache.tapestry5.ioc.ModuleBuilderSource;
 import org.apache.tapestry5.ioc.OperationTracker;

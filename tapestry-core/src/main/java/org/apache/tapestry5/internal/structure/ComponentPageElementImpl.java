@@ -20,6 +20,7 @@ import org.apache.tapestry5.commons.util.AvailableValues;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.commons.util.UnknownValueException;
 import org.apache.tapestry5.dom.Element;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.AbstractEventContext;
 import org.apache.tapestry5.internal.InternalComponentResources;
 import org.apache.tapestry5.internal.InternalConstants;

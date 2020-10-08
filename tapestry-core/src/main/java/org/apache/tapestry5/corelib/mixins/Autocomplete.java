@@ -15,6 +15,7 @@ package org.apache.tapestry5.corelib.mixins;
 import org.apache.tapestry5.*;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.commons.services.TypeCoercer;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.internal.AbstractEventContext;
 import org.apache.tapestry5.internal.util.Holder;
 import org.apache.tapestry5.ioc.annotations.Inject;

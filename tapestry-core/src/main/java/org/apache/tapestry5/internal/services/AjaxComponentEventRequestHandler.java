@@ -18,6 +18,7 @@ import java.io.IOException;
 
 import org.apache.tapestry5.TrackableComponentEventCallback;
 import org.apache.tapestry5.commons.internal.util.TapestryException;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.internal.structure.ComponentPageElement;
 import org.apache.tapestry5.internal.structure.Page;
@@ -28,7 +29,6 @@ import org.apache.tapestry5.services.ComponentEventRequestHandler;
 import org.apache.tapestry5.services.ComponentEventRequestParameters;
 import org.apache.tapestry5.services.ComponentEventResultProcessor;
 import org.apache.tapestry5.services.Environment;
-import org.apache.tapestry5.services.Request;
 
 /**
  * Similar to {@link ComponentEventRequestHandlerImpl}, but built around the Ajax request cycle, where the action

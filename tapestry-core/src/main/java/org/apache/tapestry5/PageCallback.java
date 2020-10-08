@@ -12,7 +12,8 @@
 
 package org.apache.tapestry5;
 
-import org.apache.tapestry5.annotations.ImmutableSessionPersistedObject;
+import org.apache.tapestry5.http.Link;
+import org.apache.tapestry5.http.annotations.ImmutableSessionPersistedObject;
 import org.apache.tapestry5.internal.InternalConstants;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;
 import org.apache.tapestry5.services.PageRenderLinkSource;

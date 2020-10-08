@@ -12,13 +12,13 @@
 
 package org.apache.tapestry5.internal.services;
 
-import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.TapestryConstants;
 import org.apache.tapestry5.commons.Location;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.services.InvalidationEventHub;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.commons.util.MultiKey;
+import org.apache.tapestry5.http.TapestryHttpSymbolConstants;
 import org.apache.tapestry5.internal.event.InvalidationEventHubImpl;
 import org.apache.tapestry5.internal.parser.ComponentTemplate;
 import org.apache.tapestry5.internal.parser.TemplateToken;
@@ -102,7 +102,7 @@ public final class ComponentTemplateSourceImpl extends InvalidationEventHubImpl 
     };
 
     public ComponentTemplateSourceImpl(@Inject
-                                       @Symbol(SymbolConstants.PRODUCTION_MODE)
+                                       @Symbol(TapestryHttpSymbolConstants.PRODUCTION_MODE)
                                        boolean productionMode, TemplateParser parser, ComponentResourceLocator locator,
                                        ClasspathURLConverter classpathURLConverter)
     {

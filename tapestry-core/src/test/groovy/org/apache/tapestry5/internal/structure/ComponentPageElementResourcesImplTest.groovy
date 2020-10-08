@@ -1,7 +1,7 @@
 package org.apache.tapestry5.internal.structure
 
-import org.apache.tapestry5.internal.services.RequestGlobalsImpl
-import org.apache.tapestry5.services.Request
+import org.apache.tapestry5.http.internal.services.RequestGlobalsImpl
+import org.apache.tapestry5.http.services.Request
 import org.apache.tapestry5.test.ioc.TestBase
 import org.testng.annotations.Test
 

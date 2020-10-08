@@ -20,6 +20,7 @@ import org.apache.tapestry5.commons.Messages;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.func.Mapper;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.ioc.Orderable;
 import org.apache.tapestry5.ioc.internal.util.InternalUtils;
 import org.apache.tapestry5.services.ComponentEventRequestParameters;

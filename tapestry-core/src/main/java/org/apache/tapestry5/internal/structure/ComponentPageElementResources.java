@@ -15,8 +15,8 @@
 package org.apache.tapestry5.internal.structure;
 
 import org.apache.tapestry5.ComponentResources;
-import org.apache.tapestry5.Link;
 import org.apache.tapestry5.commons.Messages;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.ioc.OperationTracker;
 import org.apache.tapestry5.ioc.services.PerThreadValue;
 import org.apache.tapestry5.ioc.services.PerthreadManager;
